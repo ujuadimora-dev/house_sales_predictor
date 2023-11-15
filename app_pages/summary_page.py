@@ -48,7 +48,7 @@ def summary_page_body():
         f" prices"
         f" for properties in Ames, Iowa, and specifically, she wants to"
         f" determine a potential value for the properties she inherited. \n"
-        f"* 3. The client would like to access the outcomes easily using"
+        f"* 3. The client would like to have Dachbord for easy access."
         f" an online application."
     )
 
@@ -66,8 +66,4 @@ def summary_page_body():
         f" University and the Iowa State Cyclones, visit "
         f"[Wikipedia](https://en.wikipedia.org/wiki/Ames,_Iowa#History).")
 
-    d = {'lat': [42.0308], 'lon': [-93.6319]}
-    df_ames = pd.DataFrame(data=d)
-    st.map(data=df_ames, zoom=11)
-
-    st.image(image_isu, caption='Iowa State Univesity - Ames, Iowa.')
+  
