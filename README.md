@@ -5,7 +5,7 @@
 
 **Developed by: Adimora Uju Louisa**
 
-![Moch_site](media/moch_site)
+![Moch_site](media/moch_site.png)
 
 **Live Site:** [Live webpage](https://housing-sales-price-predictor-0ea2e265945b.herokuapp.com/)
 
@@ -78,7 +78,22 @@ These requirements can also be viewed as the user stories of the client/end user
 
 1. **User Story 1**: As a client, I want to be able to discover how features of a home correlate with the sale price, so that I can gain insight into the importance of a homes features in determining the sale price.
 2. **User Story 2**: As a client, I want to be able to determine the likely sale price of a home based on certain features, so that I can gain insight into the likely values of a given home in the area.
-3. **User Story 3**: As a clinet, I want to be able to access the required information  online, so that, i will enable me to access it anythime and anywhere.
+3. **User Story 3**: As a client, I want to be able to access the required information  online, so that, i will enable me to access it anythime and anywhere.
+
+User Stories - Data Practitioner:
+From the project requirements, we can create a list of user stories for either a data practioner or standard non-technical user.
+
+4. **User Story 4**:As a data practitioner, I want to import a public dataset into the system so that I can build a model to predict the sales price of the inherited houses located in Ames, Iowa.
+
+5. **User Story 5**:As a data practitioner, I want to clean and process the dataset so that I can build an accurate model for predicting house prices.
+
+6. **User Story 6**:As a data practitioner, I want to explore the dataset to understand the features and their relationships with the sale price so that I can create valuable visualizations.
+
+7. **User Story 7**:As a data practitioner, I want to build a predictive model that accurately predicts the sale price of the inherited properties as well as any other house in Ames, Iowa.
+
+8. **User Story 8**:As a data practitioner, I want to optimize the model's hyperparameters to ensure that it is as accurate as possible to the clients expected requirements.
+
+9. **User Story 9**:As a data practitioner, I want to test the model's efficiency and accuracy and ensure that it is reliable for achieving our needs.
 
 ## Dataset Content
 
@@ -237,7 +252,7 @@ This page will include
 
 ## Unfixed Bugs
 
-The app does not currently contain any unfixed bugs. In one challenge that had to be overcome, the performance plots on the app page which describes the machine learning pipeline, did not display. This ended up being due to the fact that the y_test and y_train sets, when loaded, were not one dimensional. Adding the `.squeeze()` method to the `pd.csv_read` command fixed this issue.
+The app does not currently contain any unfixed bugs. 
 
 ## PEP8 Compliance Testing
 
@@ -270,7 +285,7 @@ This section contains information on resources and technologies used to complete
   - In the terminal type `jupyter notebook --NotebookApp.token='' --NotebookApp.password=''` to start the jupyter server.
 - [Heroku](https://www.heroku.com/) was used to deploy the project.
 - [Kaggle](https://www.kaggle.com/) was used to access the dataset
-- [Streamlit](https://streamlit.io/) was used to develop the online app interface.
+- [Streamlit](https://streamlit.io/) was used to develop Dachbord
 
 ### Main Data Analysis and Machine Learning
 
@@ -295,23 +310,21 @@ This section contains information on resources and technologies used to complete
 
 ### Sources of code
 
-- The CI Churnometer Walkthrough Project and the CI course content was used to source various functions and classes in the development process, such as: HyperparameterOptimizationSearch, Feature Importance analysis, evaluation of train and test sets, PPS and Correlation Analysis and plots, Missing Data Evaluation, Data Cleaning Effect, etc. These are all used in the Jupyter Notebooks during the development process of the project.
+- The CI Churnometer Walkthrough Project  was used to source various functions and classes in the development process, such as: HyperparameterOptimizationSearch, Feature Importance analysis, evaluation of train and test sets, PPS and Correlation Analysis and plots, Missing Data Evaluation, Data Cleaning Effect, etc. These are all used in the Jupyter Notebooks during the development process of the project.
 - The CI Churnometer Walkthrough Project was also the source of the Steamlit pages which were then modified and adapted to the app deployed in this project.
 - More generally, The walkthrough project provided a guide for the general layout and flow of the project.
 
 ### Media
 
-- The image of main street Ames is from [Wikipedia](https://commons.wikimedia.org/wiki/File:Ames_Iowa_Main_Street_%28bannerportada_esvoy%29.jpg)
+- The image of house Ames is from Microsoft Power Point images
 
-- The images of Iowa State University was taken from [Niche.com](https://www.niche.com/colleges/iowa-state-university/)
 
 ## Acknowledgements
 
-Many thanks and appreciation go to the following sources and people:
+Many thanks and appreciation go to the following sources;
 
 - Several past projects provided valuable additional information on how to complete a successful project:
   - Heritage Housing Issues project by T. Hullis [Link](https://github.com/t-hullis/milestone-project-heritage-housing-issues)
-  - Exam Score Analysisy by Adam Boley [Link](https://github.com/AdamBoley/Exam-Scores-Analysis)
-  - Heritage Housing Issues project by Farid Benachenhou [Link](https://github.com/faridjos/milestone-project-heritage-housing-issues)
+  - Heritage Housing Issues project by Ulrike Riemenschneider [Link](https://github.com/URiem/heritage-housing-PP5)
 - The Slack community has, as always, been invaluable in answering questions.  resolve several technical issues.
 - StackOverflow helped resolve several issues through out the project.
