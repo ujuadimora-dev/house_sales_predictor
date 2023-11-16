@@ -5,7 +5,7 @@
 
 **Developed by: Adimora Uju Louisa**
 
-![Moch_site](media/moch_site.png)
+![Moch_site](media/mock_site.png)
 
 **Live Site:** [Live webpage](https://housing-sales-price-predictor-0ea2e265945b.herokuapp.com/)
 
